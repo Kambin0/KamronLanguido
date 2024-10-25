@@ -3,7 +3,7 @@
 
 /* header */
 :root {
-    --primary-color: #263a75;
+    --primary-color: #304789;
 }
 
 
@@ -233,23 +233,23 @@ nav ul a:hover {
 }
 
 .carousel {
-    max-height: 50vh; /* Limit carousel height */
+    max-height: 50vh; 
     overflow: hidden;
     position: relative;
     display: flex;
-    justify-content: center; /* Center the content */
-    align-items: center; /* Center vertically */
+    justify-content: center;
+    align-items: center; 
 }
 
 .carousel-caption {
     position: absolute;
-    bottom: 7vw; /* Adjust distance from the bottom */
+    bottom: 7vw; 
     left: 50%;
     transform: translateX(-50%);
-    width: 100%; /* Full width to prevent clipping */
+    width: 100%; 
     text-align: center;
     font-family: Georgia, serif;
-    color: white; /* Ensure text stands out */
+    color: white; 
 }
 .carousel-caption h5 {
     font-size: 2.5vw;
@@ -290,10 +290,10 @@ nav ul a:hover {
 
 .about {
     margin-top: -3.5em;
-    overflow: hidden;     /* Prevent scrolling within this section */
-    display: flex;        /* Flexbox to align items if needed */
-    align-items: center;  /* Center content vertically */
-    justify-content: center; /* Center content horizontally */
+    overflow: hidden; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
 }
 
 
@@ -343,11 +343,8 @@ nav ul a:hover {
 .about .attributes span {
     font-weight: bold;
     letter-spacing: 4px;
+    color: var(--primary-color);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
-    background: linear-gradient(90deg, #027eb8, #e541f4);
-    -webkit-background-clip: text; /* Safari */
-    -webkit-text-fill-color: transparent; /* Safari */
-    color: transparent; /* Other browsers */
 }
 
 .about .attributes .portfolio a {
@@ -490,7 +487,7 @@ nav ul a:hover {
         display: flex;
         justify-content: space-between;
         background: none;
-        position: relative; /* Changed from unset to relative */
+        position: relative; 
         height: auto;
         width: 100%;
         padding: 0;
@@ -498,7 +495,7 @@ nav ul a:hover {
 
     .navbar nav ul {
         display: flex;
-        margin: 0; /* Ensures no default margin */
+        margin: 0; 
     }
 
     .navbar nav ul a {
@@ -518,11 +515,11 @@ nav ul a:hover {
 
 @media only screen and (min-width: 875px) {
     .carousel-caption {
-        bottom: 18vh; /* Adjusted for larger/wider screens */
+        bottom: 18vh; 
     }
 }
 @media only screen and (min-width: 1125px) {
     .carousel-caption {
-        bottom: 26vh; /* Adjusted for larger/wider screens */
+        bottom: 26vh; 
     }
 }
