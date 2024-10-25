@@ -32,7 +32,8 @@ navLinks.forEach(link => {
             easing: "ease-out",
         });
     
-        sr.reveal('.navbar', { origin: 'left' });
+        sr.reveal('.navbar .logo', { origin: 'left' });
+        sr.reveal('.navbar .title', { origin: 'left' });
         sr.reveal('#intro', { origin: 'right' });
 
         ScrollReveal().reveal('#projects', {
@@ -56,4 +57,3 @@ navLinks.forEach(link => {
             delay: 200
         });
     });
-
